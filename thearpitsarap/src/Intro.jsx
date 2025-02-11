@@ -4,7 +4,7 @@ import ImageIntro from './Components/ImageIntro'
 
 const Intro = () => {
     return (
-        <div className='relative flex justify-center'>
+        <div className='relative flex justify-center mb-42'>
             <div style={{
                 backgroundImage: "url('/assets/bg.png')",
                 backgroundSize: "cover",
@@ -12,7 +12,7 @@ const Intro = () => {
             </div>
             <div className='grid md:grid-cols-2 md:py-20 py-10'>
             <IntroLeft />
-            <ImageIntro/>
+            <ImageIntro name={"standing.jpg"}/>
             </div>
         </div>
     )
