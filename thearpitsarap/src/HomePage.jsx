@@ -5,6 +5,7 @@ import AboutMe from './AboutMe'
 import Skills from './Skills'
 import Projects from './Projects'
 import Achievements from './Achievements'
+import HireMe from './HireMe'
 
 export const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ export const HomePage = () => {
       <Skills />
       <Projects/>
       <Achievements/>
+      <HireMe/>
     </div>
   )
 }
