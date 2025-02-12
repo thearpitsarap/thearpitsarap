@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Achievements from './Achievements'
 import HireMe from './HireMe'
+import FooterSection from './FooterSection'
 
 export const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ export const HomePage = () => {
       <Projects/>
       <Achievements/>
       <HireMe/>
+      <FooterSection/>
     </div>
   )
 }

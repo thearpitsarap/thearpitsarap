@@ -5,7 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const HireMe = () => {
     return (
-        <div className='bg-black mb-10 text-white flex md:flex-row flex-col p-10 justify-around gap-4 items-center'>
+        <div className='bg-black text-white flex md:flex-row flex-col p-10 justify-around gap-4 items-center'>
             <img src="/assets/lastlogo.png" alt="mandala" className='w-1/4' />
             <div className='font-bold text-xl md:text-3xl text-center md:w-1/4'>Wanna Hire me? Or just wanna discuss a cool project to collab on?</div>
             <div className='flex flex-col gap-4 items-center md:items-start'>
