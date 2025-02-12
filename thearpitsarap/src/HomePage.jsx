@@ -4,6 +4,7 @@ import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
 import Projects from './Projects'
+import Achievements from './Achievements'
 
 export const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ export const HomePage = () => {
       <AboutMe />
       <Skills />
       <Projects/>
+      <Achievements/>
     </div>
   )
 }

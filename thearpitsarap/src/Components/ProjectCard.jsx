@@ -6,7 +6,7 @@ const ProjectCard = ({title,desc,imgn}) => {
         <div className='flex flex-col items-center'>
             <div className='w-3/4 text-center grid md:grid-cols-2 bg-white shadow-lg rounded-xl mt-10'>
                 <div className='md:px-10 md:py-10 p-5'>
-                    <img src={"/assets/"+imgn} alt="bloggify" />
+                    <img className='border-2 border-gray-100' src={"/assets/"+imgn} alt="bloggify" />
                 </div>
                 <div className='flex flex-col md:items-start justify-center m-5'>
                     <div className='font-bold text-xl'>{title}</div>
