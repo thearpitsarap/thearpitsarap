@@ -9,8 +9,8 @@ export const HomePage = () => {
     <div>
       <AppBar />
       <Intro />
-      <AboutMe/>
-      <Skills/>
+      <AboutMe />
+      <Skills />
     </div>
   )
 }
