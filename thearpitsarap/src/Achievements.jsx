@@ -3,11 +3,20 @@ import AchievementsCard from './Components/AchievementsCard';
 
 const Achievements = () => {
     return (
-        <div >
-            <AchievementsCard title={"🏆  2nd Prize Winner at Zonal Level Science Exhibition 2018"}
-                desc={"Built an Arduino UNO-based Line Following Robot Car with IR sensor & Motor Drive module, programmed via Arduino IDE, & explored its applications in medicine, industry, & home automation under the theme of Transportation & Communication."}
-                certiLink={"https://www.google.com"}
-                link={"https://www.google.com"}
+        <div className='my-20'>
+            <div className='font-bold text-2xl md:text-5xl text-center text-yellow-700 mb-14'>Achievements & Certifications:</div>
+            <AchievementsCard title={"🏆  Secretary & GP2 Head at Social Welfare and Development Committee, VIT Pune"}
+                desc={`Secured a trophy for 2 years of service in Social Welfare and Development community as Social Activity Secretary, 2022.
+                    Worked with a team of 35 members to successfully manage activities under General Proficiency - 2, a social activity initiative.`}
+                certiLink={""}
+            />
+            <AchievementsCard title={`🏆 Coordinator at Social Welfare and Development Committee, VIT Pune`}
+                desc={`Worked with a team of 15 members to successfully organize social activities - Umang, Ashadeep and Aathmabodh.`}
+                certiLink={""}
+            />
+
+            <AchievementsCard title={`🏆 Won awards in the Cyber Olympiad and Maths Olympiad in the inter district level.`}
+                certiLink={""}
             />
         </div>
     )

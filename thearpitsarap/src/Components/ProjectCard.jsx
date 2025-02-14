@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLink } from "react-icons/fa";
 
-const ProjectCard = ({title,desc,imgn}) => {
+const ProjectCard = ({title,desc,imgn,gitlink,livelink}) => {
     return (
         <div className='flex flex-col items-center'>
             <div className='w-3/4 text-center grid md:grid-cols-2 bg-white shadow-lg rounded-xl mt-10'>
@@ -14,8 +14,8 @@ const ProjectCard = ({title,desc,imgn}) => {
                         {desc}
                     </div>
                     <div className='mt-2 flex gap-3'>
-                        <div className='flex gap-3 items-center font-bold'>GitHub Link: <FaLink /></div>
-                        <div className='flex gap-3 items-center font-bold'>Live Link: <FaLink /></div>
+                        <div className='flex gap-3 items-center font-bold'>GitHub Link: <a href={gitlink} target='_blank'><FaLink /></a></div>
+                        <div className='flex gap-3 items-center font-bold'>Live Link: <a href={livelink} target='_blank'><FaLink /></a></div>
                     </div>
                 </div>
             </div>
