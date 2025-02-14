@@ -4,7 +4,7 @@ import AboutText from './Components/AboutText'
 
 const AboutMe = () => {
   return (
-    <div className='grid md:grid-cols-2 '>
+    <div className='grid md:grid-cols-2'>
       <ImageIntro name={"pose.JPG"} />
       <AboutText />
     </div>

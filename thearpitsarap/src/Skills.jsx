@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className='mt-24'>
             <div className='text-green-700 font-bold text-center text-2xl md:text-5xl'>Skills:</div>
-            <div className='flex flex-wrap justify-center mx-10'>
+            <div className='flex flex-wrap justify-center md:mx-10'>
                 <div className='flex flex-col justify-center items-center md:m-8 m-4 gap-4 w-fit'>
                     <img src="/assets/c.png" alt="C" className='md:w-20 w-10 md:m-5 m-3 cursor-pointer hover:scale-110' />
                     <div className="md:w-20 w-fit drop-shadow-md text-center">C</div>
