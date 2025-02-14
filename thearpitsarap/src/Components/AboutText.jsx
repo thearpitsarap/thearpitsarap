@@ -8,28 +8,20 @@ const AboutText = () => {
             </p>
             <div className='flex flex-col gap-4'>
                 <div className='text-blue-950 text-justify leading-5 tracking-wide'>
-                    Currently in my 4th year of B.Tech. at Delhi Technological University,
-                    I possess proficiency in programming languages like C and C++, allowing me to
-                    solve complex problems using data structures and algorithms effectively.
-                    I have practical experience in various web technologies such as JavaScript, Tailwind,
-                    HTML, CSS, ReactJS, NodeJS, Express, and Typescript, enabling me to develop clean, efficient,
-                    and well-designed code. With hands-on experience in RESTful API design and implementation, as well as
-                    database technologies like MongoDB and MySQL, and version control systems like Git and GitHub,
-                    I am well-prepared to contribute to full-stack development tasks. Additionally, I am an analytical
-                    problem-solver with a strong work ethic, capable of working both independently and collaboratively
-                    within a team. I have a strong interest in the development of scalable systems and a passion for
-                    continuous learning and understanding how scalable software is built. With a solid foundation in
-                    computer science fundamentals, exposure to design patterns, and strong critical thinking and
-                    analytical skills, I am confident in my ability to excel as a Software Engineer. Furthermore,
-                    my internship and freelance experience have provided me with valuable insights and the ability
-                    to deliver quality results in a professional environment.
+                    Having recently completed my Post Graduate Diploma in Advanced Computing at CDAC-Acts, Pune, I am
+                    well-versed in programming languages such as Java, C++, JavaScript, SQL, HTML5, CSS, Shell Script, and C#.
+                    My experience extends to frameworks like Spring Boot, NodeJS, and React.js, and I’m proficient with tools
+                    like Docker and Git. I have hands-on expertise in database management with MySQL and MongoDB.
+                    As a Software Developer at Codewits Solutions, I improved API testing, implemented Nginx support,
+                    and utilized AWS Lambda for enhanced data management.
                 </div>
                 <div className='text-blue-950 text-justify leading-5 tracking-wide'>
-                    Besides, I bring creativity to the digital realm through my skills in Digital Art, Graphic Design,
-                    and UI/UX Design. In my leisure time, I indulge in reading fiction books, and I have a knack for
-                    delivering impactful presentations that can influence minds. As a valuable asset, I have contributed
-                    to numerous teams and societies, showcasing leadership, teamwork, and the ability to excel in
-                    high-pressure situations.
+                    Notable projects I’ve worked on include OrderEase, a canteen order management system, and Splitwise,
+                    an application for managing shared expenses. I have also held leadership positions in the
+                    Social Welfare and Development Committee at VIT Pune, overseeing various social activities.
+                    Awarded in the Cyber and Maths Olympiad at the inter-district level, I actively volunteer for digital
+                    literacy initiatives. Passionate about continuous learning, I am driven to excel as a
+                    Software Engineer.
                 </div>
             </div>
 
